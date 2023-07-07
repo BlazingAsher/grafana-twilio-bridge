@@ -1,0 +1,16 @@
+name = "grafana-twilio-bridge"
+main = "index.js"
+compatibility_date = "2022-05-03"
+
+kv_namespaces = [
+		{ binding = "GTBKV", id = "<KV ID>", preview_id = "<KV ID>" }
+]
+
+[vars]
+SOURCE_NUMBER = "<Twilio source number>"
+
+# Secrets
+# TWILIO_ACCOUNT_SID=
+# TWILIO_TOKEN_SID=
+# TWILIO_TOKEN_SECRET=
+# ALERT_TOKEN=
